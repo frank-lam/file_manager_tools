@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="文件目录小工具20180319 v1.0" Height="742" Width="1105">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="28" Margin="85,25,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="823" Name="dirPath"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="85,25,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="823" Name="dirPath"/>
+        <!--<TextBox HorizontalAlignment="Left" Height="28" Margin="85,25,0,0" TextWrapping="Wrap" Text="F:\#01 我的学习课程\专题2：后端技术栈\【极客学院】JavaWeb工程师(全套)\01 初级Java Web工程师\03 Java基础\02 Java编程基础知识入门-变量与数据类型" VerticalAlignment="Top" Width="823" Name="dirPath"/>-->
         <TextBlock HorizontalAlignment="Left" Margin="32,29,0,0" TextWrapping="Wrap" Text="文件目录" VerticalAlignment="Top" RenderTransformOrigin="0.528,0.756"/>
         <Button Content="选择文件夹" HorizontalAlignment="Left" Margin="934,25,0,0" VerticalAlignment="Top" Width="73" Name="selectDir" Click="selectDir_Click"/>
         <Button Content="生成" HorizontalAlignment="Left" Margin="1012,25,0,0" VerticalAlignment="Top" Width="56" Name="generateDirInfo" Click="generateDirInfo_Click"/>

@@ -43,6 +43,10 @@ namespace fileManager
 
         }
 
+        private int getStringNumber(String str)
+        {
+            return int.Parse(System.Text.RegularExpressions.Regex.Replace(str, @"[^0-9]+", ""));
+        }
 
 
         //获取文件夹-包括子文件夹
@@ -54,6 +58,20 @@ namespace fileManager
             //不是目录   
             if (dir == null) return;
             FileSystemInfo[] files = dir.GetFileSystemInfos();
+            //Array.Sort<FileSystemInfo>(files, delegate(FileSystemInfo a, FileSystemInfo b)
+            //{
+            //    int aNumber = getStringNumber(a.Name.Split(',')[0]);
+            //    int bNumber = getStringNumber(b.Name.Split(',')[0]);
+            //    //return a.LastWriteTime.CompareTo(b.LastWriteTime);
+            //    if(aNumber>bNumber){
+            //        return true;
+            //    }
+            //    else
+            //    {
+            //        return false;
+            //    }
+            //    //return aNumber.CompareTo(bNumber);
+            //});
             for (int i = 0, j = 0; i < files.Length; i++)
             {
                 FileInfo file = files[i] as FileInfo;
@@ -86,18 +104,14 @@ namespace fileManager
 
         private void generateDirInfo_Click(object sender, RoutedEventArgs e)
         {
-
-            System.Windows.MessageBox.Show(GetMediaTimeLenSecond(@"E:\学习课程系列\thinkphp5开发restful-api接口\01 课程简介.mp4").ToString());
-
-            return;
-            //String frank = @"D:\a\abby.jpg";
-            //String to = getFileNameByPath(frank);
-            //dirTextInfo.Text = to;
-
-            //return;
+            
 
 
             String path = dirPath.Text;
+            if(path == ""){
+                System.Windows.MessageBox.Show("请选择目录");
+                return;
+            }
             //String path = @"D:\frank";
 
             string[] dataFiles = new string[] { }; //不定长 
