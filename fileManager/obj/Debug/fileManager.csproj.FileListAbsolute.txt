@@ -1,0 +1,16 @@
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\bin\Debug\fileManager.exe.config
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\bin\Debug\fileManager.exe
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\bin\Debug\fileManager.pdb
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\fileManager.csprojResolveAssemblyReference.cache
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\MainWindow.baml
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\MainWindow.g.cs
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\App.g.cs
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\fileManager_MarkupCompile.cache
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\fileManager.g.resources
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\fileManager.Properties.Resources.resources
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\fileManager.csproj.GenerateResource.Cache
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\fileManager.exe
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\fileManager.pdb
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\Interop.Shell32.dll
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\fileManager.csproj.ResolveComReference.cache
+D:\Program Files\vs2013\WpfTest\fileManager\fileManager\obj\Debug\fileManager_Content.g.cs
